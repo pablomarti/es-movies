@@ -1,0 +1,11 @@
+development: &default
+  host: 'http://localhost:9200'
+  port: '9200'
+test:
+  host: 'http://localhost:9250'
+  port: '9250'
+staging:
+  <<: *default
+production:
+  host: 'http://localhost:9400'
+  port: '9400'
