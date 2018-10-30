@@ -14,6 +14,7 @@ ElasticSearch needs to be installed.
 - `bundle install`
 - `rails db:create`
 - `rails db:migrate`
+- May require to change `config/elasticsearch.yml` by seting up `es_bin` path
 
 ### RSpec
 - Run the tests: `bundle exec rspec ./spec`
